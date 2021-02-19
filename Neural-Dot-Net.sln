@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural-Dot-Net", "Neural-Dot-Net.csproj", "{7A4CB73B-CD90-4CE7-9F12-401C383430F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural-Dot-Net-Tester", "Neural-Dot-Net-Tester\Neural-Dot-Net-Tester.csproj", "{3C0705DF-3167-4CA1-9252-9456E392CAD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A4CB73B-CD90-4CE7-9F12-401C383430F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4CB73B-CD90-4CE7-9F12-401C383430F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4CB73B-CD90-4CE7-9F12-401C383430F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4CB73B-CD90-4CE7-9F12-401C383430F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0705DF-3167-4CA1-9252-9456E392CAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0705DF-3167-4CA1-9252-9456E392CAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0705DF-3167-4CA1-9252-9456E392CAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0705DF-3167-4CA1-9252-9456E392CAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D402C8-2491-435C-82BA-581CFEB3DD1E}
+	EndGlobalSection
+EndGlobal
