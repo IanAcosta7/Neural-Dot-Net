@@ -9,24 +9,25 @@ namespace NeuralDotNet.NeuralNetwork
     class Synapse
     {
         #region Properties
-        private double input;
+        private double _input;
 
         public double Input
         {
-            get { return input; }
-            set { input = value; }
+            get { return _input; }
+            set { _input = value; }
         }
 
-        private double weight;
+        private double _weight;
 
         public double Weight
         {
-            get { return weight; }
+            get { return _weight; }
+            set { _weight = value; }
         }
 
         #endregion
         #region Methods
-        public Synapse(double _weight) => weight = _weight;
+        public Synapse(double weight) => this._weight = weight;
         #endregion
     }
 }
