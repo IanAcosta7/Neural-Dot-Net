@@ -11,7 +11,7 @@ namespace NeuralDotNetTester
     {
         static void Main(string[] args)
         {
-            Net net = new Net();
+            MultiLayerPerceptron net = new MultiLayerPerceptron();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

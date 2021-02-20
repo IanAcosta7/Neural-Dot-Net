@@ -41,7 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Net.cs" />
+    <Compile Include="NeuralNetwork\MultiLayerPerceptron.cs" />
+    <Compile Include="NeuralNetwork\Synapse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
